@@ -7,67 +7,67 @@ const animals = {
         list: [
             {
                 name: "African Lion",
-                img: "images/wild/lion.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1669725687221-6fe12c2da6b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QWZyaWNhbiUyMExpb258ZW58MHx8MHx8fDA%3D",
                 desc: "The king of the savanna, lions are the only truly social big cats, living in groups called prides of up to 30 individuals.",
                 facts: [{ l: "Habitat", v: "African Savanna" }, { l: "Lifespan", v: "10–14 years" }, { l: "Weight", v: "120–190 kg" }, { l: "Status", v: "Vulnerable" }]
             },
             {
                 name: "Bengal Tiger",
-                img: "images/wild/bengal_tiger.jpg",
+                img: "https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmVuZ2FsJTIwVGlnZXJ8ZW58MHx8MHx8fDA%3D",
                 desc: "The largest wild cat species, Bengal tigers are solitary hunters known for their distinctive orange coat with black stripes.",
                 facts: [{ l: "Habitat", v: "Indian Subcontinent" }, { l: "Lifespan", v: "10–15 years" }, { l: "Weight", v: "140–300 kg" }, { l: "Status", v: "Endangered" }]
             },
             {
                 name: "African Elephant",
-                img: "images/wild/african_elephant.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1661810056990-57be781caa2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QWZyaWNhbiUyMEVsZXBoYW50fGVufDB8fDB8fHww",
                 desc: "The largest land animal on Earth, African elephants are highly intelligent and live in close-knit matriarchal family groups.",
                 facts: [{ l: "Habitat", v: "Sub-Saharan Africa" }, { l: "Lifespan", v: "60–70 years" }, { l: "Weight", v: "3,000–6,000 kg" }, { l: "Status", v: "Vulnerable" }]
             },
             {
                 name: "Snow Leopard",
-                img: "images/wild/snow_leopard.jpg",
+                img: "https://images.unsplash.com/photo-1639231554431-ebce02bdeacc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U25vdyUyMExlb3BhcmR8ZW58MHx8MHx8fDA%3D",
                 desc: "The ghost of the mountains, snow leopards are elusive predators perfectly adapted to the harsh cold of Central Asian ranges.",
                 facts: [{ l: "Habitat", v: "Central Asia" }, { l: "Lifespan", v: "10–12 years" }, { l: "Weight", v: "22–55 kg" }, { l: "Status", v: "Vulnerable" }]
             },
             {
                 name: "Grey Wolf",
-                img: "images/wild/grey_wolf.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1661890071978-6c80f92c7fdf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8R3JleSUyMFdvbGZ8ZW58MHx8MHx8fDA%3D",
                 desc: "Highly social apex predators, wolves live and hunt in family packs with complex social hierarchies and communication.",
                 facts: [{ l: "Habitat", v: "North America, Eurasia" }, { l: "Lifespan", v: "6–8 years" }, { l: "Weight", v: "25–40 kg" }, { l: "Status", v: "Least Concern" }]
             },
             {
                 name: "Cheetah",
-                img: "images/wild/cheetah.jpg",
+                img: "https://images.unsplash.com/photo-1624958319297-d1aa3a41378e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hlZXRhaHxlbnwwfHwwfHx8MA%3D%3D",
                 desc: "The fastest land animal, cheetahs can reach 112 km/h in short bursts. Unlike other big cats, they hunt by day using sight.",
                 facts: [{ l: "Habitat", v: "Africa & Iran" }, { l: "Lifespan", v: "10–12 years" }, { l: "Weight", v: "21–72 kg" }, { l: "Status", v: "Vulnerable" }]
             },
             {
                 name: "Gorilla",
-                img: "images/wild/gorilla.jpg",
+                img: "https://images.unsplash.com/photo-1581281863883-2469417a1668?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R29yaWxsYXxlbnwwfHwwfHx8MA%3D%3D",
                 desc: "The largest primates on Earth, gorillas share 98.3% of their DNA with humans and live in tight family groups in African forests.",
                 facts: [{ l: "Habitat", v: "Central Africa" }, { l: "Lifespan", v: "35–40 years" }, { l: "Weight", v: "70–200 kg" }, { l: "Status", v: "Critically Endangered" }]
             },
             {
                 name: "Grizzly Bear",
-                img: "images/wild/grizzly_bear.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1661849977833-c18cd1c7e295?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JpenpseSUyMEJlYXJ8ZW58MHx8MHx8fDA%3D",
                 desc: "One of North America's largest land predators, grizzly bears are omnivores known for their enormous strength and intelligence.",
                 facts: [{ l: "Habitat", v: "North America" }, { l: "Lifespan", v: "20–25 years" }, { l: "Weight", v: "130–360 kg" }, { l: "Status", v: "Least Concern" }]
             },
             {
                 name: "Jaguar",
-                img: "images/wild/jaguar.jpg",
+                img: "https://images.unsplash.com/photo-1566544496485-02b11e54229b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SmFndWFyfGVufDB8fDB8fHww",
                 desc: "The Americas' largest cat, jaguars have the most powerful bite of any big cat and are exceptional swimmers.",
                 facts: [{ l: "Habitat", v: "Amazon Basin" }, { l: "Lifespan", v: "12–15 years" }, { l: "Weight", v: "56–96 kg" }, { l: "Status", v: "Near Threatened" }]
             },
             {
                 name: "Orangutan",
-                img: "images/wild/orangutan.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1661816511883-d53e6e9e106f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8T3Jhbmd1dGFufGVufDB8fDB8fHww",
                 desc: "Among the most intelligent animals, orangutans are the only great apes native to Asia and use tools in the wild.",
                 facts: [{ l: "Habitat", v: "Borneo & Sumatra" }, { l: "Lifespan", v: "35–45 years" }, { l: "Weight", v: "30–90 kg" }, { l: "Status", v: "Critically Endangered" }]
             },
             {
                 name: "Polar Bear",
-                img: "images/wild/polar_bear.jpg",
+                img: "https://images.unsplash.com/photo-1593946460607-d1570da6268f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UG9sYXIlMjBCZWFyfGVufDB8fDB8fHww",
                 desc: "The world's largest land carnivore, polar bears are perfectly adapted to Arctic life with thick fur and a layer of fat for insulation.",
                 facts: [{ l: "Habitat", v: "Arctic Circle" }, { l: "Lifespan", v: "20–25 years" }, { l: "Weight", v: "350–700 kg" }, { l: "Status", v: "Vulnerable" }]
             }
@@ -366,7 +366,7 @@ const animals = {
             },
             {
                 name: "Chameleon",
-                img: "images/reptiles/chameleon.jpg",
+                img: "https://plus.unsplash.com/premium_photo-1722827117771-51f0f24a9a1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hhbWVsZW9ufGVufDB8fDB8fHww",
                 desc: "Master of disguise, chameleons change colour not just to camouflage but also to communicate mood and temperature regulation.",
                 facts: [{ l: "Eyes", v: "360-degree vision" }, { l: "Tongue", v: "Twice body length" }, { l: "Colour", v: "For communication" }, { l: "Species", v: "200+" }]
             },
