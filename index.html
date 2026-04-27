@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="main-title">Animal World</h1>
+        <p class="subtitle">Explore the wild kingdom</p>
+    </header>
+
+    <nav class="category-nav">
+        <button class="cat-btn active" data-category="wild">
+            <span class="cat-icon">&#127995;</span>
+            <span>Wild</span>
+        </button>
+        <button class="cat-btn" data-category="carnivorous">
+            <span class="cat-icon">&#128008;</span>
+            <span>Carnivorous</span>
+        </button>
+        <button class="cat-btn" data-category="herbivorous">
+            <span class="cat-icon">&#128024;</span>
+            <span>Herbivorous</span>
+        </button>
+        <button class="cat-btn" data-category="birds">
+            <span class="cat-icon">&#128038;</span>
+            <span>Birds</span>
+        </button>
+        <button class="cat-btn" data-category="aquatic">
+            <span class="cat-icon">&#128016;</span>
+            <span>Aquatic</span>
+        </button>
+        <button class="cat-btn" data-category="reptiles">
+            <span class="cat-icon">&#129422;</span>
+            <span>Reptiles</span>
+        </button>
+    </nav>
+
+    <div class="category-label-wrap">
+        <span class="category-label" id="category-label">Wild Animals</span>
+        <span class="count-label" id="count-label"></span>
+    </div>
+
+    <div class="scene">
+        <div class="a3d" id="carousel"></div>
+    </div>
+
+    <div class="animal-info">
+        <span id="info-text">Hover to pause &nbsp;&bull;&nbsp; Scroll to spin &nbsp;&bull;&nbsp; Click a card to learn more</span>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-img-wrap">
+                <img id="modal-img" src="" alt="">
+            </div>
+            <div class="modal-body">
+                <h2 id="modal-name"></h2>
+                <span class="modal-badge" id="modal-badge"></span>
+                <p id="modal-desc"></p>
+                <div class="modal-facts" id="modal-facts"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
